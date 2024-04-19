@@ -1,0 +1,15 @@
+{
+  "name": "kiss-worker-demo1",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview --open"
+  },
+  "devDependencies": {
+    "kiss-worker": "^0.1.0",
+    "vite": "^5.2.0"
+  }
+}
