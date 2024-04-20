@@ -12,10 +12,10 @@
       // the returned promise, which will eventually fulfill with the
       // result calculated on the worker thread.
       const result = await worker.execute(40);
-      document.querySelector("#result").textContent = `${result}`;
+      document.querySelector("h1").textContent = `${result}`;
     </script>
   </head>
   <body>
-    <h1 id="result"></h1>
+    <h1></h1>
   </body>
 </html>
