@@ -1,4 +1,3 @@
-<!-- https://github.com/andreashuber69/kiss-worker/blob/develop/README.md -->
 <!doctype html>
 <html lang=en>
   <head>
@@ -8,9 +7,10 @@
       import { FibonacciWorker } from "./src/FibonacciWorker.ts";
       // Start a new worker thread waiting for work.
       const worker = new FibonacciWorker();
-      // Send the argument (40) to the worker thread, where it will be passed to our worker function. In the mean time
-      // we're awaiting the returned promise, which will eventually fulfill with the result calculated on the worker
-      // thread.
+      // Send the argument (40) to the worker thread, where it will be
+      // passed to our worker function. In the mean time we're awaiting
+      // the returned promise, which will eventually fulfill with the
+      // result calculated on the worker thread.
       const result = await worker.execute(40);
       document.querySelector("#result").textContent = `${result}`;
     </script>
