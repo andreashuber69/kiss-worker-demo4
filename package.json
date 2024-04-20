@@ -1,8 +1,24 @@
 {
   "name": "kiss-worker-demo1",
-  "private": true,
   "version": "1.0.0",
+  "description": "Demonstrates the simplest way to use kiss-worker",
+  "homepage": "https://github.com/andreashuber69/kiss-worker-demo1/blob/develop/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreashuber69/kiss-worker-demo1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andreashuber69/kiss-worker-demo1/issues"
+  },
+  "license": "Unlicense",
+  "author": {
+    "name": "Andreas Huber"
+  },
+  "engines": {
+    "node": ">=18.19"
+  },
   "type": "module",
+  "private": true,
   "scripts": {
     "start": "vite --open",
     "build": "vite build",
