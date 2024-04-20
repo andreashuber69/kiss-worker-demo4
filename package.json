@@ -6,7 +6,8 @@
   "scripts": {
     "start": "vite --open",
     "build": "vite build",
-    "preview": "vite preview --open"
+    "preview": "vite preview --open",
+    "ci": "npm run build"
   },
   "devDependencies": {
     "kiss-worker": "^0.1.0",
