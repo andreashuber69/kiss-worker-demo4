@@ -2,9 +2,8 @@
   kiss-worker-demo1
 </h1>
 
-Demonstrates the simplest way how to use
-[kiss-worker](https://www.npmjs.com/package/kiss-worker), see
-**Getting Started** section.
+Demonstrates the simplest way to use `kiss-worker`, see
+[Getting Started](https://www.npmjs.com/package/kiss-worker#getting-started).
 
 ```
 git clone https://github.com/andreashuber69/kiss-worker-demo1.git
