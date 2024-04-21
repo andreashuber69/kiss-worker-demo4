@@ -19,7 +19,7 @@ your computer (requires [node](https://nodejs.org/en/download) >=18.18):
 
 ```bash
 git clone https://github.com/andreashuber69/kiss-worker-demo2.git
-cd kiss-worker-demo1
+cd kiss-worker-demo2
 npm install
 npm start
 ```
