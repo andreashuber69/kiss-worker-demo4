@@ -1,15 +1,14 @@
-import { implementWorker } from "kiss-worker";
+import { implementWorkerExternal } from "kiss-worker";
 
-// The function we want to execute on a worker thread (worker function).
-const getFibonacci = (n: number): number =>
-    ((n < 2) ? Math.floor(n) : getFibonacci(n - 1) + getFibonacci(n - 2));
+// Import the type of the worker function ...
+import type { GetFibonacci } from "./getFibonacci.js";
 
-export const FibonacciWorker = implementWorker(
-    // A function that creates a web worker running this script
+// ... and pass it to establish type safety
+export const FibonacciWorker = implementWorkerExternal<GetFibonacci>(
+    // A function that creates a web worker running the script that serves
+    // the worker function
     () => new Worker(
-        new URL("FibonacciWorker.js", import.meta.url),
+        new URL("getFibonacci.js", import.meta.url),
         { type: "module" }
     ),
-    // Our worker function
-    getFibonacci,
 );
