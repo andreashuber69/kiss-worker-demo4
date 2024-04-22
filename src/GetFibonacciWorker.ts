@@ -4,7 +4,7 @@ import { implementWorkerExternal } from "kiss-worker";
 import type { GetFibonacci } from "./getFibonacci.js";
 
 // ... and pass it to establish type safety
-export const FibonacciWorker = implementWorkerExternal<GetFibonacci>(
+export const GetFibonacciWorker = implementWorkerExternal<GetFibonacci>(
     // A function that creates a web worker running the script that
     // serves the worker function
     () => new Worker(
