@@ -1,0 +1,13 @@
+import { createCalculatorWorker } from "./createCalculatorWorker.ts";
+
+// Start a new worker thread waiting for work.
+const worker = await createCalculatorWorker();
+
+const element = document.querySelector("p");
+let current = BigInt(2);
+
+for (let round = 0; element && round < 20; ++round) {
+    // worker.obj is a proxy for Calculator
+    current = await worker.obj.multiply(current, current);
+    element.textContent = `${current}`;
+}
