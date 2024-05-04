@@ -11,8 +11,8 @@
   </a>
 </p>
 
-Demonstrates the most general way to use `kiss-worker`, see
-[Getting Started](https://www.npmjs.com/package/kiss-worker#getting-started).
+Demonstrates the easiest way to use `kiss-worker` with an object, see
+[Getting Started](https://www.npmjs.com/package/kiss-worker#example-2-object).
 
 You can play with this on [StackBlitz](https://stackblitz.com/~/github.com/andreashuber69/kiss-worker-demo2) or on
 your computer (requires [node](https://nodejs.org/en/download) >=18.18):
