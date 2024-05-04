@@ -15,7 +15,7 @@ export const createCalculatorWorker = implementObjectWorker(
     // A function that creates a web worker running this script
     () => new Worker(
         new URL("createCalculatorWorker.js", import.meta.url),
-        { type: "module" }
+        { type: "module" },
     ),
-    Calculator
+    Calculator,
 );
