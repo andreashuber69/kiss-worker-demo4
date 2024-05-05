@@ -1,7 +1,7 @@
 {
   "name": "kiss-worker-demo2",
   "version": "1.0.0",
-  "description": "Demonstrates the most general way to use kiss-worker",
+  "description": "Demonstrates the easiest way to use kiss-worker with an object.",
   "homepage": "https://github.com/andreashuber69/kiss-worker-demo2/blob/develop/README.md",
   "repository": {
     "type": "git",
