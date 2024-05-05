@@ -1,14 +1,14 @@
 {
-  "name": "kiss-worker-demo2",
+  "name": "kiss-worker-demo4",
   "version": "1.0.0",
-  "description": "Demonstrates the easiest way to use kiss-worker with an object.",
-  "homepage": "https://github.com/andreashuber69/kiss-worker-demo2/blob/develop/README.md",
+  "description": "Demonstrates the most general way to use kiss-worker with an object.",
+  "homepage": "https://github.com/andreashuber69/kiss-worker-demo4/blob/develop/README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andreashuber69/kiss-worker-demo2.git"
+    "url": "git+https://github.com/andreashuber69/kiss-worker-demo4.git"
   },
   "bugs": {
-    "url": "https://github.com/andreashuber69/kiss-worker-demo2/issues"
+    "url": "https://github.com/andreashuber69/kiss-worker-demo4/issues"
   },
   "license": "Unlicense",
   "author": {
