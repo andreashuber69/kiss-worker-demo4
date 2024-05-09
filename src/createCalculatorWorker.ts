@@ -11,5 +11,5 @@ export const createCalculatorWorker = implementObjectWorkerExternal(
         { type: "module" },
     ),
     // Provide required information about the served object
-    new ObjectInfo<typeof Calculator>("multiply", "divide"),
+    new ObjectInfo<typeof Calculator>(),
 );
