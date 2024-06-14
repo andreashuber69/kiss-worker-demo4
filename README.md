@@ -14,8 +14,9 @@
 Demonstrates the most general way to use `kiss-worker` with an object, see
 [Worker Code Isolation](https://www.npmjs.com/package/kiss-worker#worker-code-isolation).
 
-You can play with this on [StackBlitz](https://stackblitz.com/~/github.com/andreashuber69/kiss-worker-demo4) or on
-your computer (requires [node](https://nodejs.org/en/download) >=18.18):
+You can play with this on [StackBlitz](https://stackblitz.com/~/github.com/andreashuber69/kiss-worker-demo4). To compile
+the example on your computer and run it in your browser you can proceed as follows (requires
+[node](https://nodejs.org/en/download) >=18.18):
 
 ```bash
 git clone https://github.com/andreashuber69/kiss-worker-demo4.git
@@ -24,7 +25,7 @@ npm install
 npm start
 ```
 
-The above will run the example code in your browser. You can run it on node as follows:
+Naturally, the exact same worker code also runs on node (but **not** on StackBlitz, unfortunately):
 
 ```bash
 npm run node-start
